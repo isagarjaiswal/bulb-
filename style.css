@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+/* <div class="main-box">
+        <h1>Can you turn the light on ?</h1>
+        <img src="" alt="">
+        <button class="onbtn">Turn on the light</button>
+        <button class="offbtn">Turn off the light</button>
+    </div> */
+
+
+    .main-box{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(18, 18, 38);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: aliceblue;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .for_btn{
+        display: flex;
+        width: 50vmax;
+        
+    }
+    img{
+        margin: 5%;
+    }
+   .for_btn button{
+        width: 100vmax;
+        width: fit-content;
+        padding: 2%;
+        border:2px solid gray;
+        outline: none;
+        /* color: aliceblue; */
+        margin: 10%;
+        font: 700 15px "montserrat";        
+    }
+
+    .onbtn{
+        background-color: yellow;
+        color: rgb(2, 10, 17);
+        text-shadow: 2px 2px 4px #000000;
+
+    }
+    .offbtn{
+        background-color:rgba(19, 18, 18, 0.855);
+        color: aliceblue;
+
+    }
